@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  portfolio:
+    build: .
+    container_name: my-portfolio
+    ports:
+      - "8080:80"  # map localhost:8080 → nginx:80
+    restart: always

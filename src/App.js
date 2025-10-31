@@ -93,7 +93,16 @@ function App() {
       icon: "☸️",
       features: ["GitOps", "Secret Management", "CRM Deployment"],
       status: "Completed"
-    }
+    },
+    { 
+    title: "github-action-deploy-hotstar-clone",
+    tech: "GitHub Actions, Docker, AWS EC2, Terraform, SonarQube",
+    description: "Automated deployment of Hotstar clone using GitHub Actions, Docker, and AWS EC2 with Terraform and SonarQube integration.",
+    icon: "🔥",
+    features: ["CI/CD Pipeline", "Infrastructure as Code", "Code Quality Analysis"],
+    status: "Completed"
+  }
+
   ];
 
   const education = [
